@@ -1,0 +1,4 @@
+1. AG (EF ({in_train = TRUE} & not [hop_off] & not [go_to_next]))
+2. G ({in_train = TRUE} => [go_to_next] U [hop_off])
+3. AF ([hop_on] or [hop_off])
+4. G ({current_station = A} => not ((not {current_station = C}) U {current_station = F}))
