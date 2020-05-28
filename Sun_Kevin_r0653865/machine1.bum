@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="machine0"/>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="tracks"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="current_station"/>
+<org.eventb.core.event name="*" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="in_train ≔ FALSE" org.eventb.core.label="init_in_train"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="+" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="go_to_next">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="go_to_next"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="in_train" org.eventb.core.predicate="in_train = TRUE"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="," org.eventb.core.identifier="in_train"/>
+<org.eventb.core.invariant name="-" org.eventb.core.label="in_train_type" org.eventb.core.predicate="in_train ∈ BOOL"/>
+<org.eventb.core.event name="." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="hop_on">
+<org.eventb.core.guard name="'" org.eventb.core.label="not_in_train" org.eventb.core.predicate="in_train = FALSE"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="in_train ≔ TRUE" org.eventb.core.label="hop_on_train"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="hop_off">
+<org.eventb.core.action name="'" org.eventb.core.assignment="in_train ≔ FALSE" org.eventb.core.label="hop_off_train"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="in_train" org.eventb.core.predicate="in_train = TRUE"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>
