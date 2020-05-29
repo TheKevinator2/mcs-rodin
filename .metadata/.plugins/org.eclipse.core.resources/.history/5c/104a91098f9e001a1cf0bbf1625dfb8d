@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/current_train_gluing_in_train/INV"/>
+<org.eventb.core.prProof name="hop_on/current_train_gluing_in_train/INV"/>
+<org.eventb.core.prProof name="hop_off/current_train_gluing_in_train/INV"/>
+</org.eventb.core.prFile>

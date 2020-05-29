@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/tutorial-03">
+<rodin_index>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#," name="set_peds_go">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.variable#(" name="cars_go">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="3"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#)" name="peds_go">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#." name="set_cars">
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-" name="set_cars">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+" name="set_peds_go">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.variable#)" name="peds_go">
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="19"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="20"/>
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1" name="mac1">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.parameter#(" name="new_value">
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="10"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/tutorial-03/ctx1.buc|org.eventb.core.contextFile#ctx1" name="ctx1">
+<occurrence element="/tutorial-03/ctx1.buc|org.eventb.core.contextFile#ctx1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#*" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#*" name="INITIALISATION">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#(" name="cars_go">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#-" name="set_peds_stop">
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#,|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac" name="mac">
+<occurrence element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac" kind="org.eventb.core.declaration"/>
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#," name="set_peds_stop">
+<occurrence element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/tutorial-03/mac1.bum">
+<exported element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#+" name="set_peds_go"/>
+<exported element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#(" name="cars_go"/>
+<exported element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#," name="set_peds_stop"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac" name="mac"/>
+<exported element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.variable#)" name="peds_go"/>
+<exported element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#*" name="INITIALISATION"/>
+<exported element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1" name="mac1"/>
+<exported element="/tutorial-03/mac1.bum|org.eventb.core.machineFile#mac1|org.eventb.core.event#-" name="set_cars"/>
+</export>
+<export file="/tutorial-03/ctx1.buc">
+<exported element="/tutorial-03/ctx1.buc|org.eventb.core.contextFile#ctx1" name="ctx1"/>
+</export>
+<export file="/tutorial-03/mac.bum">
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#-" name="set_peds_stop"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#," name="set_peds_go"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac" name="mac"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.variable#(" name="cars_go"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.variable#)" name="peds_go"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#." name="set_cars"/>
+<exported element="/tutorial-03/mac.bum|org.eventb.core.machineFile#mac|org.eventb.core.event#.|org.eventb.core.parameter#(" name="new_value"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/tutorial-03/mac.bum" mark="false" order_pos="0"/>
+<node label="/tutorial-03/ctx1.buc" mark="false" order_pos="1"/>
+<node label="/tutorial-03/mac1.bum" mark="false" order_pos="2">
+<predecessor label="/tutorial-03/mac.bum"/>
+</node>
+</graph>
+<unprocessed file="/tutorial-03/mac.bcm"/>
+<unprocessed file="/tutorial-03/mac.bpo"/>
+<unprocessed file="/tutorial-03/mac.bpr"/>
+<unprocessed file="/tutorial-03/mac.bps"/>
+<unprocessed file="/tutorial-03/mac1.bcm"/>
+<unprocessed file="/tutorial-03/mac1.bpo"/>
+<unprocessed file="/tutorial-03/mac1.bpr"/>
+<unprocessed file="/tutorial-03/mac1.bps"/>
+<unprocessed file="/tutorial-03/ctx1.bcc"/>
+<unprocessed file="/tutorial-03/ctx1.bpo"/>
+<unprocessed file="/tutorial-03/ctx1.bpr"/>
+<unprocessed file="/tutorial-03/ctx1.bps"/>
+</pim>
+<pim project="/tutorial-05">
+<rodin_index>
+<descriptor element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.carrierSet#*" name="COLOURS">
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.carrierSet#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#)" name="green">
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="37"/>
+</descriptor>
+<descriptor element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1" name="ctx1">
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#(" name="yellow">
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="27"/>
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#'" name="red">
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="20"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/tutorial-05/ctx1.buc">
+<exported element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.carrierSet#*" name="COLOURS"/>
+<exported element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#)" name="green"/>
+<exported element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#'" name="red"/>
+<exported element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1" name="ctx1"/>
+<exported element="/tutorial-05/ctx1.buc|org.eventb.core.contextFile#ctx1|org.eventb.core.constant#(" name="yellow"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/tutorial-05/ctx1.buc" mark="false" order_pos="0"/>
+</graph>
+<unprocessed file="/tutorial-05/agatha.bcc"/>
+<unprocessed file="/tutorial-05/agatha.bpo"/>
+<unprocessed file="/tutorial-05/agatha.bpr"/>
+<unprocessed file="/tutorial-05/agatha.bps"/>
+<unprocessed file="/tutorial-05/ctx1.bcc"/>
+<unprocessed file="/tutorial-05/ctx1.bpo"/>
+<unprocessed file="/tutorial-05/ctx1.bpr"/>
+<unprocessed file="/tutorial-05/ctx1.bps"/>
+<unprocessed file="/tutorial-05/mac1.bcm"/>
+<unprocessed file="/tutorial-05/mac1.bpo"/>
+<unprocessed file="/tutorial-05/mac1.bpr"/>
+<unprocessed file="/tutorial-05/mac1.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

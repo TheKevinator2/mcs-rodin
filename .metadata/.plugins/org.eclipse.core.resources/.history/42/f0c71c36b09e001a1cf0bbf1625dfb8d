@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="go_to_next/track_exists/WD"/>
+<org.eventb.core.prProof name="go_to_next/track_exists/GRD"/>
+<org.eventb.core.prProof name="go_to_next/move_to_station/WD"/>
+<org.eventb.core.prProof name="go_to_next/move_to_station/SIM"/>
+</org.eventb.core.prFile>

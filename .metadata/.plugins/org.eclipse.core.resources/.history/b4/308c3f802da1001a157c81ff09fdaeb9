@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="unique_source_station_pass/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="54" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="one_and_only_one_first_pass/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="56" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="consecutive_passes_have_track/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="56" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="stop_is_also_pass/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="56" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

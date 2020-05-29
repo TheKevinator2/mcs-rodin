@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.extendsContext name="'" org.eventb.core.target="tracks"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="next_pass"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="stops"/>
+<org.eventb.core.axiom name="-" org.eventb.core.label="T" org.eventb.core.predicate="T = trains ∖ {no_train}"/>
+<org.eventb.core.axiom name="3" org.eventb.core.label="next_pass" org.eventb.core.predicate="partition(next_pass, {IC1↦A↦B}, {IC1↦B↦E}, {IC2↦E↦B}, {IC2↦B↦A}, {L1↦A↦C}, {L1↦C↦B}, {L2↦B↦C}, {L2↦C↦A}, {IC3↦E↦F}, {IC3↦F↦D}, {IC4↦D↦F}, {IC4↦F↦E})"/>
+<org.eventb.core.axiom name="*" org.eventb.core.label="next_pass_partial_function" org.eventb.core.predicate="next_pass ∈ (T × stations) ⇸ stations"/>
+<org.eventb.core.axiom name="+" org.eventb.core.label="stops_total_function" org.eventb.core.predicate="stops ∈ T → ℙ(stations) ∖ ∅"/>
+<org.eventb.core.axiom name="4" org.eventb.core.label="stops" org.eventb.core.predicate="partition(stops, {IC1↦{A,E}}, {IC2↦{A,E}}, {IC3↦{E,F,D}}, {IC4↦{E,F,D}}, {L1↦{A,B,C}}, {L2↦{A,B,C}})"/>
+<org.eventb.core.constant name="," org.eventb.core.identifier="T"/>
+<org.eventb.core.axiom name="." org.eventb.core.label="unique_source_station_pass" org.eventb.core.predicate="∀t, s1, s2· (t↦s1 ∈ dom(next_pass) ∧ t↦s2 ∈ dom(next_pass) ∧ next_pass(t↦s1) = next_pass(t↦s2)) ⇒ s1 = s2"/>
+<org.eventb.core.axiom name="/" org.eventb.core.label="only_one_first_pass" org.eventb.core.predicate="∀t, s1, s2· t↦s1 ∈ dom(next_pass) ∧ t↦s2 ∈ dom(next_pass) ∧ (¬∃s3· t↦s3 ∈ dom(next_pass) ∧ next_pass(t↦s3) = s1) ∧ (¬∃s3· t↦s3 ∈ dom(next_pass) ∧ next_pass(t↦s3) = s2) ⇒ s1 = s2 "/>
+<org.eventb.core.axiom name="2" org.eventb.core.label="atleast_one_first_pass" org.eventb.core.predicate="∀t· t ∈ T ⇒ (∃s· t↦s ∈ dom(next_pass) ∧ (¬∃s1· t↦s1 ∈ dom(next_pass) ∧ next_pass(t↦s1) = s))"/>
+<org.eventb.core.axiom name="0" org.eventb.core.label="consecutive_passes_have_track" org.eventb.core.predicate="∀t, s1, s2· t↦s1 ∈ dom(next_pass) ∧ next_pass(t↦s1) = s2 ⇒ s1↦s2 ∈ tracks"/>
+<org.eventb.core.axiom name="1" org.eventb.core.label="stop_is_also_pass" org.eventb.core.predicate="∀t, s_set· t ∈ dom(stops) ∧ s_set ∈ ran(stops) ∧ stops(t) = s_set ⇒ (∀s· s ∈ s_set ⇒ (t↦s ∈ dom(next_pass)))"/>
+</org.eventb.core.contextFile>

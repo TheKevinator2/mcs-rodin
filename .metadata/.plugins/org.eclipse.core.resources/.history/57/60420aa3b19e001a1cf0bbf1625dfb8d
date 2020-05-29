@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="machine2"/>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="trains"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="current_station"/>
+<org.eventb.core.variable name="1" org.eventb.core.identifier="current_train"/>
+<org.eventb.core.event name="2" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION"/>
+<org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="go_to_next">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="go_to_next"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="current_station ≔ next_pass(current_train↦current_station)" org.eventb.core.label="move_to_station"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="track_exists" org.eventb.core.predicate="current_station ↦ next_pass(current_train↦current_station) ∈ tracks"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="in_current_train" org.eventb.core.predicate="current_train ≠ no_train"/>
+<org.eventb.core.witness name="*" org.eventb.core.label="station" org.eventb.core.predicate="station = next_pass(current_train↦current_station)"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="not_last_pass" org.eventb.core.predicate="∃s· s ∈ stations ∧ next_pass(current_train↦current_station) = s"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="4" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="hop_on">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="hop_on"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="at_stop_of_train" org.eventb.core.predicate="current_station ∈ stops(train)"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="5" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="hop_off">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="hop_off"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="at_stop_of_train" org.eventb.core.predicate="current_station ∈ stops(t)"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

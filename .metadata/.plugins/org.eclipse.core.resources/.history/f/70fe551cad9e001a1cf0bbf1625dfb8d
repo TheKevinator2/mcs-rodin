@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.extendsContext name="'" org.eventb.core.target="tracks"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="next_pass"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="stops"/>
+<org.eventb.core.axiom name="-" org.eventb.core.label="T" org.eventb.core.predicate="T = trains ∖ {no_train}"/>
+<org.eventb.core.axiom name="*" org.eventb.core.label="next_pass_partial_function" org.eventb.core.predicate="next_pass ∈ (T × stations) ⇸ stations"/>
+<org.eventb.core.axiom name="+" org.eventb.core.label="stops_total_function" org.eventb.core.predicate="stops ∈ T → ℙ(stations) ∖ ∅"/>
+<org.eventb.core.constant name="," org.eventb.core.identifier="T"/>
+<org.eventb.core.axiom name="." org.eventb.core.label="unique_source_station_pass" org.eventb.core.predicate="∀t, s1, s2· t ∈ T ∧ s1 ∈ stations ∧ s2 ∈ stations ∧ next_pass(t↦s1) = next_pass(t↦s2) ⇒ s1 = s2"/>
+<org.eventb.core.axiom name="/" org.eventb.core.label="only_one_first_pass" org.eventb.core.predicate="∀t, s1, s2· t↦s1 ∈ dom(next_pass) ∧ t↦s2 ∈ dom(next_pass) ∧ (¬∃s3· next_pass(t↦s3) = s1) ∧ (¬∃s3· next_pass(t↦s3) = s2) ⇒ s1 = s2 "/>
+<org.eventb.core.axiom name="2" org.eventb.core.label="atleast_one_first_pass" org.eventb.core.predicate="∀t· t ∈ T ⇒ (∃s· t↦s ∈ dom(next_pass) ∧ (¬∃s1· next_pass(t↦s1) = s))" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="0" org.eventb.core.label="consecutive_passes_have_track" org.eventb.core.predicate="∀t, s1, s2· t ∈ T ∧ s1 ∈ stations ∧ s2 ∈ stations ∧ next_pass(t↦s1) = s2 ⇒ s1↦s2 ∈ tracks"/>
+<org.eventb.core.axiom name="1" org.eventb.core.label="stop_is_also_pass" org.eventb.core.predicate="∀t, s_set· stops(t) = s_set ⇒ (∀s· s ∈ s_set ⇒ (∃s1· s ≠ s1 ∧ (next_pass(t↦s1) = s ∨ next_pass(t↦s) = s1)))"/>
+</org.eventb.core.contextFile>

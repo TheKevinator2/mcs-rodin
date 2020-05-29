@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="train_partition" org.eventb.core.predicate="partition(trains,{no_train},{IC1},{IC2},{IC3},{IC4},{L1},{L2})" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="⊤" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="IC1" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#)" org.eventb.core.type="trains"/>
+<org.eventb.core.scConstant name="IC2" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#*" org.eventb.core.type="trains"/>
+<org.eventb.core.scConstant name="IC3" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#+" org.eventb.core.type="trains"/>
+<org.eventb.core.scConstant name="IC4" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#," org.eventb.core.type="trains"/>
+<org.eventb.core.scConstant name="L1" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#-" org.eventb.core.type="trains"/>
+<org.eventb.core.scConstant name="L2" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#." org.eventb.core.type="trains"/>
+<org.eventb.core.scConstant name="no_train" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#(" org.eventb.core.type="trains"/>
+<org.eventb.core.scCarrierSet name="stations" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#\/" org.eventb.core.type="ℙ(stations)"/>
+<org.eventb.core.scCarrierSet name="trains" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(trains)"/>
+</org.eventb.core.scContextFile>

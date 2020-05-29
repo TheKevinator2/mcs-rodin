@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="stations" org.eventb.core.type="ℙ(stations)"/>
+<org.eventb.core.poIdentifier name="trains" org.eventb.core.type="ℙ(trains)"/>
+<org.eventb.core.poIdentifier name="A" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="B" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="C" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="D" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="E" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="F" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="IC1" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="IC2" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="IC3" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="IC4" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="L1" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="L2" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="no_train" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="tracks" org.eventb.core.type="ℙ(stations×stations)"/>
+<org.eventb.core.poPredicate name="stationt" org.eventb.core.predicate="partition(trains,{no_train},{IC1},{IC2},{IC3},{IC4},{L1},{L2})" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0"/>
+<org.eventb.core.poPredicate name="stationu" org.eventb.core.predicate="partition(stations,{A},{B},{C},{D},{E},{F})" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1"/>
+<org.eventb.core.poPredicate name="stationv" org.eventb.core.predicate="tracks⊆stations × stations" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#9"/>
+<org.eventb.core.poPredicate name="stationw" org.eventb.core.predicate="partition(tracks,{A ↦ B},{B ↦ E},{E ↦ B},{B ↦ A},{A ↦ C},{C ↦ B},{B ↦ C},{C ↦ A},{E ↦ F},{F ↦ D},{D ↦ F},{F ↦ E})" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#;"/>
+<org.eventb.core.poIdentifier name="next_pass" org.eventb.core.type="ℙ(trains×stations×stations)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="next_pass∈(trains ∖ {no_train}) × stations ⇸ stations" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="⊤" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

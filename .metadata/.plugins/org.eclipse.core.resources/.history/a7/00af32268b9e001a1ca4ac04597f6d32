@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="current_station :∈ stations" org.eventb.core.label="random_current_station"/>
+</org.eventb.core.event>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="tracks"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="current_station"/>
+<org.eventb.core.invariant name="*" org.eventb.core.label="current_station_type" org.eventb.core.predicate="current_station ∈ stations"/>
+<org.eventb.core.event name="+" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="go_to_next">
+<org.eventb.core.action name="'" org.eventb.core.assignment="" org.eventb.core.label="act1"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="station"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="track_exists" org.eventb.core.predicate="current_station ↦ station ∈ tracks"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

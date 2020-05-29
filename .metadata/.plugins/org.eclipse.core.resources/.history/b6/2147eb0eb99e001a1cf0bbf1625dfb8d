@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poIdentifier name="stations" org.eventb.core.type="ℙ(stations)"/>
+<org.eventb.core.poIdentifier name="trains" org.eventb.core.type="ℙ(trains)"/>
+<org.eventb.core.poIdentifier name="A" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="B" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="C" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="D" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="E" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="F" org.eventb.core.type="stations"/>
+<org.eventb.core.poIdentifier name="IC1" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="IC2" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="IC3" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="IC4" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="L1" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="L2" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="no_train" org.eventb.core.type="trains"/>
+<org.eventb.core.poIdentifier name="tracks" org.eventb.core.type="ℙ(stations×stations)"/>
+<org.eventb.core.poPredicate name="stationt" org.eventb.core.predicate="partition(trains,{no_train},{IC1},{IC2},{IC3},{IC4},{L1},{L2})" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0"/>
+<org.eventb.core.poPredicate name="stationu" org.eventb.core.predicate="partition(stations,{A},{B},{C},{D},{E},{F})" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1"/>
+<org.eventb.core.poPredicate name="stationv" org.eventb.core.predicate="tracks⊆stations × stations" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#9"/>
+<org.eventb.core.poPredicate name="stationw" org.eventb.core.predicate="partition(tracks,{A ↦ B},{B ↦ E},{E ↦ B},{B ↦ A},{A ↦ C},{C ↦ B},{B ↦ C},{C ↦ A},{E ↦ F},{F ↦ D},{D ↦ F},{F ↦ E})" org.eventb.core.source="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#;"/>
+<org.eventb.core.poIdentifier name="T" org.eventb.core.type="ℙ(trains)"/>
+<org.eventb.core.poIdentifier name="next_pass" org.eventb.core.type="ℙ(trains×stations×stations)"/>
+<org.eventb.core.poIdentifier name="stops" org.eventb.core.type="ℙ(trains×ℙ(stations))"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="unique_source_station_pass/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="30">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrackx"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀t⦂trains,s1⦂stations,s2⦂stations·t ↦ s1∈dom(next_pass)∧t ↦ s2∈dom(next_pass)⇒next_pass∈trains × stations ⇸ stations" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#."/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#."/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrackx"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="only_one_first_pass/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtracky"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀t⦂trains,s1⦂stations,s2⦂stations·t ↦ s1∈dom(next_pass)∧t ↦ s2∈dom(next_pass)⇒(∀s3⦂stations·t ↦ s3∈dom(next_pass)⇒next_pass∈trains × stations ⇸ stations)" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtracky"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="atleast_one_first_pass/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrackz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀t⦂trains·t∈T⇒(∀s⦂stations·t ↦ s∈dom(next_pass)⇒(∀s1⦂stations·t ↦ s1∈dom(next_pass)∧next_pass∈trains × stations ⇸ stations))" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#2"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#2"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrackz"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="consecutive_passes_have_track/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrack{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀t⦂trains,s1⦂stations,s2⦂stations·t∈T∧s1∈stations∧s2∈stations⇒t ↦ s1∈dom(next_pass)∧next_pass∈trains × stations ⇸ stations" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#0"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#0"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrack{"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="stop_is_also_pass/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Axiom" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrack\|"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀t⦂trains,s_set⦂ℙ(stations)·t∈dom(stops)∧stops∈trains ⇸ ℙ(stations)∧(stops(t)=s_set⇒(∀s⦂stations·s∈s_set⇒(∀s1⦂stations·s≠s1⇒t ↦ s1∈dom(next_pass)∧next_pass∈trains × stations ⇸ stations∧(next_pass(t ↦ s1)=s∨(t ↦ s∈dom(next_pass)∧next_pass∈trains × stations ⇸ stations)))))" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrack\|"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="HYPtrackx" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="27">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="T=trains ∖ {no_train}" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#-"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="partition(next_pass,{IC1 ↦ A ↦ B},{IC1 ↦ B ↦ E},{IC2 ↦ E ↦ B},{IC2 ↦ B ↦ A},{L1 ↦ A ↦ C},{L1 ↦ C ↦ B},{L2 ↦ B ↦ C},{L2 ↦ C ↦ A},{IC3 ↦ E ↦ F},{IC3 ↦ F ↦ D},{IC4 ↦ D ↦ F},{IC4 ↦ F ↦ E})" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="partition(stops,{IC1 ↦ {A,E}},{IC2 ↦ {A,E}},{IC3 ↦ {E,F,D}},{IC4 ↦ {E,F,D}},{L1 ↦ {A,B,C}},{L2 ↦ {A,B,C}})" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="next_pass∈T × stations ⇸ stations" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="stops∈T → ℙ(stations) ∖ (∅ ⦂ ℙ(ℙ(stations)))" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYPtracky" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrackx" org.eventb.core.poStamp="30">
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="∀t⦂trains,s1⦂stations,s2⦂stations·t ↦ s1∈dom(next_pass)∧t ↦ s2∈dom(next_pass)∧next_pass(t ↦ s1)=next_pass(t ↦ s2)⇒s1=s2" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#."/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYPtrackz" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtracky" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="∀t⦂trains,s1⦂stations,s2⦂stations·t ↦ s1∈dom(next_pass)∧t ↦ s2∈dom(next_pass)∧¬(∃s3⦂stations·t ↦ s3∈dom(next_pass)∧next_pass(t ↦ s3)=s1)∧¬(∃s3⦂stations·t ↦ s3∈dom(next_pass)∧next_pass(t ↦ s3)=s2)⇒s1=s2" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYPtrack{" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrackz" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="∀t⦂trains·t∈T⇒(∃s⦂stations·t ↦ s∈dom(next_pass)∧¬(∃s1⦂stations·next_pass(t ↦ s1)=s))" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#2"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYPtrack|" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrack{" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="∀t⦂trains,s1⦂stations,s2⦂stations·t∈T∧s1∈stations∧s2∈stations∧next_pass(t ↦ s1)=s2⇒s1 ↦ s2∈tracks" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#0"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/trains.bpo|org.eventb.core.poFile#trains|org.eventb.core.poPredicateSet#HYPtrack\|" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="∀t⦂trains,s_set⦂ℙ(stations)·stops(t)=s_set⇒(∀s⦂stations·s∈s_set⇒(∃s1⦂stations·s≠s1∧(next_pass(t ↦ s1)=s∨next_pass(t ↦ s)=s1)))" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/Sun_Kevin_r0653865">
+<rodin_index>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#(" name="no_train">
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="19"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="14"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#7" name="F">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="113" loc_char_start="112"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="122" loc_char_start="121"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="135" loc_char_start="134"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="144" loc_char_start="143"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="52" loc_char_start="51"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="67" loc_char_start="66"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="46"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#," name="IC4">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="62" loc_char_start="59"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="131" loc_char_start="128"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="142" loc_char_start="139"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="55" loc_char_start="52"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#\/" name="stations">
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="18"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="10"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="21"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="14"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="17"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="37" loc_char_start="29"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="10"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="19"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#3" name="B">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="28"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="38" loc_char_start="37"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="51" loc_char_start="50"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="60" loc_char_start="59"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="82" loc_char_start="81"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="90" loc_char_start="89"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="81" loc_char_start="80"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="95" loc_char_start="94"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="26"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#)" name="stops">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="19"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#)" name="IC1">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="18"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="22"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="33"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="34" loc_char_start="31"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+" name="go_to_next">
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains" name="trains">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#4" name="C">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="72" loc_char_start="71"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="80" loc_char_start="79"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="92" loc_char_start="91"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="100" loc_char_start="99"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="83" loc_char_start="82"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="97" loc_char_start="96"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="31"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#(" name="next_pass">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="50" loc_char_start="41"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="80" loc_char_start="71"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="93" loc_char_start="84"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="56" loc_char_start="47"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="87" loc_char_start="78"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="100" loc_char_start="91"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="10"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="142" loc_char_start="133"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="155" loc_char_start="146"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="88" loc_char_start="79"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="23"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="45" loc_char_start="36"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="24"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="57" loc_char_start="48"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="70" loc_char_start="61"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="23"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#5" name="D">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="124" loc_char_start="123"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="133" loc_char_start="132"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="54" loc_char_start="53"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="69" loc_char_start="68"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="37" loc_char_start="36"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#," name="T">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#*" name="IC2">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="34" loc_char_start="31"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="44"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="58" loc_char_start="55"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="38"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks" name="tracks">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks" kind="org.eventb.core.declaration"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#-" name="L1">
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="61" loc_char_start="59"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="68" loc_char_start="66"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="78" loc_char_start="76"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="76" loc_char_start="74"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+|org.eventb.core.parameter#(" name="station">
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="25" loc_char_start="18"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="18"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#'" name="trains">
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="10"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#6" name="E">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="40" loc_char_start="39"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="49" loc_char_start="48"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="111" loc_char_start="110"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="146" loc_char_start="145"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="50" loc_char_start="49"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="65" loc_char_start="64"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="25"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="39" loc_char_start="38"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="41"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0" name="machine0">
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#+" name="IC3">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="44"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="109" loc_char_start="106"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="120" loc_char_start="117"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="48" loc_char_start="45"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.variable#)" name="current_station">
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="0"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="0"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="0"/>
+<occurrence element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#:" name="tracks">
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#." name="L2">
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="67" loc_char_start="65"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="88" loc_char_start="86"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="98" loc_char_start="96"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="90" loc_char_start="88"/>
+</descriptor>
+<descriptor element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#2" name="A">
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="26"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="62" loc_char_start="61"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="70" loc_char_start="69"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="102" loc_char_start="101"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="79" loc_char_start="78"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="93" loc_char_start="92"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="23"/>
+<occurrence element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="37" loc_char_start="36"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/Sun_Kevin_r0653865/tracks.buc">
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#." name="L2"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#)" name="IC1"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#+" name="IC3"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#'" name="trains"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#3" name="B"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#5" name="D"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#7" name="F"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#:" name="tracks"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#-" name="L1"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#*" name="IC2"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#," name="IC4"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#\/" name="stations"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#(" name="no_train"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#2" name="A"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#4" name="C"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#6" name="E"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks" name="tracks"/>
+</export>
+<export file="/Sun_Kevin_r0653865/trains.buc">
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#." name="L2"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#+" name="IC3"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#)" name="IC1"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#'" name="trains"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#7" name="F"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#5" name="D"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#3" name="B"/>
+<exported element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#(" name="next_pass"/>
+<exported element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#)" name="stops"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#-" name="L1"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#:" name="tracks"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#," name="IC4"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#*" name="IC2"/>
+<exported element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.constant#," name="T"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#\/" name="stations"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#(" name="no_train"/>
+<exported element="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains" name="trains"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#6" name="E"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#4" name="C"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#2" name="A"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks" name="tracks"/>
+</export>
+<export file="/Sun_Kevin_r0653865/machine0.bum">
+<exported element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0" name="machine0"/>
+<exported element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+" name="go_to_next"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#." name="L2"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#+" name="IC3"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#)" name="IC1"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#'" name="trains"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#7" name="F"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#5" name="D"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#3" name="B"/>
+<exported element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.variable#)" name="current_station"/>
+<exported element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Sun_Kevin_r0653865/machine0.bum|org.eventb.core.machineFile#machine0|org.eventb.core.event#+|org.eventb.core.parameter#(" name="station"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#-" name="L1"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#:" name="tracks"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#," name="IC4"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#*" name="IC2"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.carrierSet#\/" name="stations"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#(" name="no_train"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#6" name="E"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#4" name="C"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks|org.eventb.core.constant#2" name="A"/>
+<exported element="/Sun_Kevin_r0653865/tracks.buc|org.eventb.core.contextFile#tracks" name="tracks"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/Sun_Kevin_r0653865/tracks.buc" mark="false" order_pos="0"/>
+<node label="/Sun_Kevin_r0653865/machine0.bum" mark="false" order_pos="1">
+<predecessor label="/Sun_Kevin_r0653865/tracks.buc"/>
+</node>
+<node label="/Sun_Kevin_r0653865/trains.buc" mark="false" order_pos="2">
+<predecessor label="/Sun_Kevin_r0653865/tracks.buc"/>
+</node>
+</graph>
+<unprocessed file="/Sun_Kevin_r0653865/tracks.bcc"/>
+<unprocessed file="/Sun_Kevin_r0653865/tracks.bpo"/>
+<unprocessed file="/Sun_Kevin_r0653865/tracks.bpr"/>
+<unprocessed file="/Sun_Kevin_r0653865/tracks.bps"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine0.bcm"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine0.bpo"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine0.bpr"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine0.bps"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine3.bcm"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine3.bpo"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine3.bpr"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine3.bps"/>
+<unprocessed file="/Sun_Kevin_r0653865/trains.bcc"/>
+<unprocessed file="/Sun_Kevin_r0653865/trains.bpo"/>
+<unprocessed file="/Sun_Kevin_r0653865/trains.bpr"/>
+<unprocessed file="/Sun_Kevin_r0653865/trains.bps"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine1.bpo"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine1.bps"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine2.bpo"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine2.bps"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine2.bcm"/>
+<unprocessed file="/Sun_Kevin_r0653865/machine1.bcm"/>
+</pim>
+<pim project="/tutorial-05">
+<rodin_index/>
+<export_table/>
+<graph is_sorted="true"/>
+<unprocessed file="/tutorial-05/agatha.bcc"/>
+<unprocessed file="/tutorial-05/agatha.bpo"/>
+<unprocessed file="/tutorial-05/agatha.bpr"/>
+<unprocessed file="/tutorial-05/agatha.bps"/>
+<unprocessed file="/tutorial-05/ctx1.bcc"/>
+<unprocessed file="/tutorial-05/ctx1.bpo"/>
+<unprocessed file="/tutorial-05/ctx1.bpr"/>
+<unprocessed file="/tutorial-05/ctx1.bps"/>
+<unprocessed file="/tutorial-05/mac1.bcm"/>
+<unprocessed file="/tutorial-05/mac1.bpo"/>
+<unprocessed file="/tutorial-05/mac1.bpr"/>
+<unprocessed file="/tutorial-05/mac1.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

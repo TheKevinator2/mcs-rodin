@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="3">
-<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="stations" org.eventb.core.type="ℙ(stations)"/>
 <org.eventb.core.poIdentifier name="trains" org.eventb.core.type="ℙ(trains)"/>
 <org.eventb.core.poIdentifier name="A" org.eventb.core.type="stations"/>
@@ -34,7 +34,7 @@
 <org.eventb.core.poPredicate name="next_pas{" org.eventb.core.predicate="∀t⦂trains,s1⦂stations,s2⦂stations·t ↦ s1∈dom(next_pass)∧next_pass(t ↦ s1)=s2⇒s1 ↦ s2∈tracks" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#0"/>
 <org.eventb.core.poPredicate name="next_pas|" org.eventb.core.predicate="∀t⦂trains,s⦂stations·t∈T∧s∈stops(t)⇒t ↦ s∈dom(next_pass)∨(∃s1⦂stations·t ↦ s1∈dom(next_pass)∧next_pass(t ↦ s1)=s)" org.eventb.core.source="/Sun_Kevin_r0653865/trains.buc|org.eventb.core.contextFile#trains|org.eventb.core.axiom#1"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="current_station" org.eventb.core.type="stations"/>
 <org.eventb.core.poIdentifier name="current_train" org.eventb.core.type="trains"/>
 <org.eventb.core.poIdentifier name="in_train" org.eventb.core.type="BOOL"/>
@@ -43,24 +43,24 @@
 <org.eventb.core.poPredicate name="current_statioq" org.eventb.core.predicate="current_train∈trains" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.invariant#2"/>
 <org.eventb.core.poPredicate name="current_statior" org.eventb.core.predicate="current_train=no_train⇔in_train=FALSE" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.invariant#3"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statioo" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statioo" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="current_train'" org.eventb.core.type="trains"/>
 <org.eventb.core.poIdentifier name="current_station'" org.eventb.core.type="stations"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statioo" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statioo" org.eventb.core.poStamp="3"/>
-<org.eventb.core.poSequent name="go_to_next/track_exists/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statioo" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statioo" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poSequent name="go_to_next/track_exists/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statiop("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="current_train ↦ current_station∈dom(next_pass)∧next_pass∈trains × stations ⇸ stations" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.guard#)"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statiop("/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="go_to_next/station/WWD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of witness" org.eventb.core.poStamp="3">
+<org.eventb.core.poSequent name="go_to_next/station/WWD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of witness" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTALLHYPcurrent_statiop"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="current_train ↦ current_station∈dom(next_pass)∧next_pass∈trains × stations ⇸ stations" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.witness#*"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.witness#*"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poSequent#go_to_next\/station\/WWD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="go_to_next/track_exists/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="3">
+<org.eventb.core.poSequent name="go_to_next/track_exists/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTALLHYPcurrent_statiop"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="current_station ↦ next_pass(current_train ↦ current_station)∈tracks" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.event#.|org.eventb.core.guard#)"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.event#."/>
@@ -68,13 +68,13 @@
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poSequent#go_to_next\/track_exists\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="go_to_next/move_to_station/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="3">
+<org.eventb.core.poSequent name="go_to_next/move_to_station/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTALLHYPcurrent_statiop"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="current_train ↦ current_station∈dom(next_pass)∧next_pass∈trains × stations ⇸ stations" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.action#'"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.action#'"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTALLHYPcurrent_statiop"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poSequent name="go_to_next/move_to_station/SIM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="3">
+<org.eventb.core.poSequent name="go_to_next/move_to_station/SIM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTALLHYPcurrent_statiop"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="next_pass(current_train ↦ current_station)=next_pass(current_train ↦ current_station)" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.event#.|org.eventb.core.action#'"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.event#."/>
@@ -82,48 +82,48 @@
 <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3"/>
 <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poSequent#go_to_next\/move_to_station\/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statiop" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statiop" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="station" org.eventb.core.type="stations"/>
 <org.eventb.core.poIdentifier name="current_station'" org.eventb.core.type="stations"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTHYPcurrent_statiop(" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statiop" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTHYPcurrent_statiop(" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statiop" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="current_train ↦ current_station∈dom(next_pass)" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.guard#+"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statiop" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statiop(" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statiop" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statiop(" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="current_station ↦ next_pass(current_train ↦ current_station)∈tracks" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.guard#)"/>
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="current_train≠no_train" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#3|org.eventb.core.guard#("/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="hop_on/at_stop_of_train/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="3">
+<org.eventb.core.poSequent name="hop_on/at_stop_of_train/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statioq)"/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="train∈dom(stops)∧stops∈trains ⇸ ℙ(stations)" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#4|org.eventb.core.guard#+"/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#4|org.eventb.core.guard#+"/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statioq)"/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statioq" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statioq" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="current_train'" org.eventb.core.type="trains"/>
 <org.eventb.core.poIdentifier name="train" org.eventb.core.type="trains"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTHYPcurrent_statioq)" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statioq" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTHYPcurrent_statioq)" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statioq" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="current_train=no_train" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.event#\/|org.eventb.core.guard#'"/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="train≠no_train" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.event#\/|org.eventb.core.guard#*"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statioq" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statioq)" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statioq" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statioq)" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="current_station∈stops(train)" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#4|org.eventb.core.guard#+"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="hop_off/at_stop_of_train/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="3">
+<org.eventb.core.poSequent name="hop_off/at_stop_of_train/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statior("/>
 <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="current_train∈dom(stops)∧stops∈trains ⇸ ℙ(stations)" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#5|org.eventb.core.guard#("/>
 <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#5|org.eventb.core.guard#("/>
 <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statior("/>
 </org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statior" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTIDENTcurrent_statior" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
 <org.eventb.core.poIdentifier name="current_train'" org.eventb.core.type="trains"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTHYPcurrent_statior(" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statior" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTHYPcurrent_statior(" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTIDENTcurrent_statior" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="current_train≠no_train" org.eventb.core.source="/Sun_Kevin_r0653865/machine2.bum|org.eventb.core.machineFile#machine2|org.eventb.core.event#0|org.eventb.core.guard#("/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statior" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statior(" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="EVTALLHYPcurrent_statior" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#EVTHYPcurrent_statior(" org.eventb.core.poStamp="0">
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="current_station∈stops(current_train)" org.eventb.core.source="/Sun_Kevin_r0653865/machine3.bum|org.eventb.core.machineFile#machine3|org.eventb.core.event#5|org.eventb.core.guard#("/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="3"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Sun_Kevin_r0653865/machine3.bpo|org.eventb.core.poFile#machine3|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0"/>
 </org.eventb.core.poFile>

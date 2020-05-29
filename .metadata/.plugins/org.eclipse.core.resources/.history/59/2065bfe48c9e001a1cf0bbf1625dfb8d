@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="trains"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="no_train"/>
+<org.eventb.core.constant name=":" org.eventb.core.identifier="tracks"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="IC1"/>
+<org.eventb.core.constant name="*" org.eventb.core.identifier="IC2"/>
+<org.eventb.core.constant name="+" org.eventb.core.identifier="IC3"/>
+<org.eventb.core.constant name="," org.eventb.core.identifier="IC4"/>
+<org.eventb.core.constant name="-" org.eventb.core.identifier="L1"/>
+<org.eventb.core.constant name="." org.eventb.core.identifier="L2"/>
+<org.eventb.core.carrierSet name="/" org.eventb.core.identifier="stations"/>
+<org.eventb.core.axiom name="0" org.eventb.core.label="train_partition" org.eventb.core.predicate="partition(trains, {no_train}, {IC1}, {IC2}, {IC3}, {IC4}, {L1}, {L2})"/>
+<org.eventb.core.axiom name="1" org.eventb.core.label="stations_partition" org.eventb.core.predicate="partition(stations, {A}, {B}, {C}, {D}, {E}, {F})"/>
+<org.eventb.core.constant name="2" org.eventb.core.identifier="A"/>
+<org.eventb.core.constant name="3" org.eventb.core.identifier="B"/>
+<org.eventb.core.constant name="4" org.eventb.core.identifier="C"/>
+<org.eventb.core.constant name="5" org.eventb.core.identifier="D"/>
+<org.eventb.core.constant name="6" org.eventb.core.identifier="E"/>
+<org.eventb.core.constant name="7" org.eventb.core.identifier="F"/>
+<org.eventb.core.axiom name="9" org.eventb.core.label="tracks_relation" org.eventb.core.predicate="tracks ⊆ (stations × stations)"/>
+<org.eventb.core.axiom name=";" org.eventb.core.label="tracks_partition" org.eventb.core.predicate="partition(tracks, (A,B))"/>
+</org.eventb.core.contextFile>

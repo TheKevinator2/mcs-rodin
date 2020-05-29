@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="machine1"/>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="tracks"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="current_station"/>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="internal1" org.eventb.core.assignment="current_station :∈ stations" org.eventb.core.label="random_current_station"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="current_train ≔ no_train" org.eventb.core.label="init_current_train"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="go_to_next">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="go_to_next"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="current_station ≔ station" org.eventb.core.label="move_to_station"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="station"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="track_exists" org.eventb.core.predicate="current_station ↦ station ∈ tracks"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="hop_on">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="hop_on"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="not_in_train" org.eventb.core.predicate="in_train = FALSE"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="in_train ≔ TRUE" org.eventb.core.label="hop_on_train"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="hop_off">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="hop_off"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="in_train ≔ FALSE" org.eventb.core.label="hop_off_train"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="1" org.eventb.core.identifier="current_train"/>
+<org.eventb.core.invariant name="2" org.eventb.core.label="current_train_type" org.eventb.core.predicate="current_train ∈ trains"/>
+<org.eventb.core.invariant name="3" org.eventb.core.label="current_train_gluing_in_train" org.eventb.core.predicate="current_train = no_train ⇔ in_train = FALSE"/>
+</org.eventb.core.machineFile>
