@@ -1,0 +1,28 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{Kevin Sun - r0653865}
+\title{MCS: Rodin project}
+\begin{document}
+\maketitle
+\section{Hours spent}
+I spent a total of 11 hours on this project, 5 of which were spent trying to install the needed software on different OS'es.
+
+\section{LTL/CTL statements}
+\begin{enumerate}
+	\item AG (EF (\{in\_train = TRUE\} \& not [hop\_off] \& not [go\_to\_next]))
+	\item G (\{in\_train = TRUE\} $=>$ [go\_to\_next] U [hop\_off])
+	\item AF (AG (([hop\_on] or [hop\_off]) \& not [go\_to\_next]))
+	\item G (\{current\_station = A\} $=>$ \{current\_station = C\} R \{not (current\_station = F)\})
+\end{enumerate}
+\subsection{Design decisions}
+\begin{enumerate}
+	\item "It is always possible ..." means that in every future state, there must be the possibility of getting into a state where the given requirements are fulfilled.
+	\item I decided that a ride on a train cannot be infinite, so the use of U forces the passenger to hop off at some point in the future.
+	\item "Eventually" is interpreted as: For all paths beginning from the current state, at some point in the path all states of all paths beginning from that point fulfill the given requirement.
+	\item /
+\end{enumerate}
+
+\end{document}
